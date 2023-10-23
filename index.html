@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Boletín de Notas</title>
+<link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+
+<h1>Boletín de Notas</h1>
+
+<label for="numAlumnos">Número de alumnos:</label>
+<input type="number" id="numAlumnos" value="5">
+
+<button onclick="agregarAlumnos()">Agregar Alumnos</button>
+
+<h2>Materias</h2>
+
+<label for="materia1">Materia 1:</label>
+<input type="text" id="materia1" value="Matemáticas">
+
+<label for="materia2">Materia 2:</label>
+<input type="text" id="materia2" value="Lenguaje">  
+
+<label for="materia3">Materia 3:</label>
+<input type="text" id="materia3" value="Ciencias">
+
+<label for="materia4">Materia 4:</label>  
+<input type="text" id="materia4" value="Historia">
+
+<label for="materia5">Materia 5:</label>
+<input type="text" id="materia5" value="Artes">
+
+<div id="alumnos"></div>
+
+<button onclick="agregarNotas()">1. Agregar Notas</button>
+<button onclick="calcularPromedio()">2. Calcular Promedio</button> 
+<button onclick="mostrarNotas()">3. Mostrar Notas</button>
+<button onclick="notaMasAlta()">4. Nota Más Alta</button>
+<button onclick="verificarAplazos()">5. Verificar Aplazos</button>
+
+<div id="notas"></div>
+<script src="boletines.js"></script>
+</body>
+</html>
